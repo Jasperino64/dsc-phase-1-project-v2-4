@@ -8,11 +8,12 @@ Microsoft wants to enter the movie industry.  It needs some recommendations to s
 
 ## Business Problem
 
-Find some the best genres, actors, and writers.
+Find some of the best genres, actors, and writers.
 
 ***
 Questions to consider:
 * What are the business's pain points related to this project?
+Cleaning comma delimited genres
 * How did you pick the data analysis question(s) that you did?
 * Why are these questions important from a business perspective?
 ***
@@ -20,6 +21,9 @@ Questions to consider:
 ## Data
 
 Describe the data being used for this project.
+
+IMDB data for movie genres
+
 
 ***
 Questions to consider:
@@ -99,19 +103,20 @@ Questions to consider:
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./project.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./project.ipynb) or our [presentation](./Micrsoft Movie Proposal.pdf).
 
 For any additional questions, please contact **Jasper Chen jasperschen@gmail.com**
 
 ## Repository Structure
 
-Describe the structure of your repository and its contents, for example:
-
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
 ├── Micrsoft Movie Proposal.pdf         <- PDF version of project presentation
+└── img                                 <- Both sourced externally and generated from code
 ├── src
 │   ├── project.ipynb               <- .py script to create finalized versions of visuals for project
-└── img                                 <- Both sourced externally and generated from code
+|── zippedData                                 
+    ├── bom.movie_gross.csv.gz          <- Box Office Mojo movie revenue data
+    ├── im.db.zip                       <- IMDB data (for genres)
+    ├── tn.movie_budgets.csv.gz         <- The Numbers movie budget data
 ```

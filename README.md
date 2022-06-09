@@ -8,7 +8,7 @@ Microsoft wants to enter the movie industry.  It needs some recommendations to s
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
+Find some the best genres, actors, and writers.
 
 ***
 Questions to consider:
@@ -51,11 +51,42 @@ Questions to consider:
 
 Here is an example of how to embed images from your sub-folder:
 
-### Visual 1
-![graph1](./images/viz1.png)
+### Genre Histogram
+![genre histogram](./img/genre_hist.png)
 
 ## Conclusions
 
+Within the past 10 years, there have been a lot of action and adventure movies.
+
+### Profit vs Genre
+![profit vs genre](./img/profit_vs_genre.png)
+
+### Genre Conclusion
+The most profitable genres within the past 10 years
+
+By absolute profit: Animation, Sci-fi
+
+By ROI: Horror, Mystery
+
+### Profit vs Actor
+![profit vs actor](./img/profit_vs_actor.png)
+
+### Conclusion
+The most profitable actors
+
+Best absolute profit: Denzel Whitaker, Matty Cardarople
+
+Best ROI: Ionut Grama, Corneliu Ulici
+### Profit vs Writer
+![profit vs writer](./img/profit_vs_writer.png)
+
+### Conclusion
+The most profitable living movie writers within the past ten years
+
+Simon Rich writes the best movies based on absolute profit.
+
+Scott Beck writes the best movies based on ROI.
+# Final Conclusion
 Create a horror/mystery written by Scott Beck with actors Ionut Grama, Corneliu
 Ulici.
 
@@ -68,9 +99,9 @@ Questions to consider:
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./project.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For any additional questions, please contact **Jasper Chen jasperschen@gmail.com**
 
 ## Repository Structure
 

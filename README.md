@@ -13,9 +13,17 @@ Find some of the best genres, actors, and writers.
 ***
 Questions to consider:
 * What are the business's pain points related to this project?
-Cleaning comma delimited genres
+
+Cleaning comma delimited genres. Coverting comma delimited strings to numbers.
+
 * How did you pick the data analysis question(s) that you did?
+
+Genres, actors, writers seem like obvious choices.
+
 * Why are these questions important from a business perspective?
+
+No one wants to see unpopular genres, bad actors, with bad content.
+
 ***
 
 ## Data
@@ -28,9 +36,19 @@ IMDB data for movie genres
 ***
 Questions to consider:
 * Where did the data come from, and how do they relate to the data analysis questions?
+
+Genre data from IMDB.
+
+Revenue data from Box Offic Mojo.
+
+Budget data from The Numbers.
+
 * What do the data represent? Who is in the sample and what variables are included?
 * What is the target variable?
-* What are the properties of the variables you intend to use?
+* What are the properties of the variables you intend to use? 
+
+absolute profit = domestic revenue - budget
+ROI = (absolute profit / budget) * 100
 ***
 
 ## Methods
@@ -97,8 +115,19 @@ Ulici.
 ***
 Questions to consider:
 * What would you recommend the business do as a result of this work?
+
+Create a horror/mystery written by Scott Beck with actors Ionut Grama, Corneliu
+Ulici.
+
 * What are some reasons why your analysis might not fully solve the business problem?
+
+The genre, actor, and writer might not match each other.
+
+
+Market saturation might make it difficult to start.
 * What else could you do in the future to improve this project?
+
+Match writers to their proficient genre.
 ***
 
 ## For More Information
@@ -117,6 +146,6 @@ For any additional questions, please contact **Jasper Chen jasperschen@gmail.com
 │   ├── project.ipynb               <- .py script to create finalized versions of visuals for project
 |── zippedData                                 
     ├── bom.movie_gross.csv.gz          <- Box Office Mojo movie revenue data
-    ├── im.db.zip                       <- IMDB data (for genres)
+    ├── im.db.zip                       <- IMDB data (for genres, actors, writers)
     ├── tn.movie_budgets.csv.gz         <- The Numbers movie budget data
 ```
